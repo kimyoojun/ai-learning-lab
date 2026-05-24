@@ -8,10 +8,17 @@ python 환경변수 설정
 
 26.05.23 NumPy 시작
 ----------
+### 설치 방법
+```
 pip install numpy
+```
 
 26.05.24 OpenCv 시작
 -------------------
+### 설치 방법
+```
+pip install opencv-python
+```
 
 ### 이미지 출력
 
