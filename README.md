@@ -12,7 +12,7 @@ pip install numpy
 
 ### 이미지 출력
 
-- flags
+#### Flags
     - cv2.IMREAD_UNCHANGED : 원본 사용
     - cv2.IMREAD_GRAYSCALE : 1 채널, 그레이스케일 적용
     - cv2.IMREAD_COLOR : 3 채널, BGR 이미지 사용
@@ -25,11 +25,13 @@ pip install numpy
     - cv2.IMREAD_REDUCED_COLOR_4 : 3 채널, 1/4 크기, BGR 이미지 사용
     - cv2.IMREAD_REDUCED_COLOR_8 : 3 채널, 1/8 크기, BGR 이미지 사용
 
+#### 이미지 속성
+이미지의 높이(height), 너비(width), 채널(channel)의 값을 확인할 수 있음
 ```
+예시코드:
 height, width, channel = image(변수).shape
 print(height, width, channel)
 ```
-위 코드처럼 이미지의 높이(height), 너비(width), 채널(channel)의 값을 확인할 수 있음
 
 이미지의 속성은 크기, 정밀도, 채널을 주요한 속성으로 사용함
 - 크기: 이미지의 **높이**와 **너비**를 의미함
